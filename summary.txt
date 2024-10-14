@@ -1,0 +1,26 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+
+I chose Node.js with Javascript rather than Flask with Python or any other languages primarily because of my past experiences of using Javascript and especially Node.js and Express.js. 
+I started with web development programming in highschool because of my curiousity for how websites are build, because of which Javascript was the first programming language I taught myself. While I learnt React for frontend, I learnt Node.js for backend programming for web applications, and throughout the years, have built solid foundation for javascript. Hence, it was an easy pick for me to use Javascript with Node.js and Express.
+
+
+
+
+2. What are the advantages and disadvantages of your solution?
+
+My solution is very intuitive and simple to read and understand which I believe is it's biggest advantage. I am using very simple data structures like arrays and objects to store my information. In addition, my algorithms for adding and spending are very intuitive and easy to understand, and for a reletively simple project like this, I consider that an advantage.
+
+My disadvantages are definately being very simple and not putting extra time on it to make it better. For example, I should probably wrap the code in try and catch blocks to handle some potential errors. Also, I should also probably validate the input for /add as well so I'm able to easily get the payer, points and timestamp without any problems and throw an exception if in case the input for /add is invalid.
+
+
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+
+My favorite project has been a personal one from this past summer. I implemented a web application that works like a movie app where users can search the movies they want, get information about it and save it in their watchlists. 
+
+I am getting my movie data from OMDB API and fetching the neccessary data I need to display. I used React for my frontend and Node.js and Express for backend. I have enabled user registration and login in order for users to have their own watchlists. For that, I'm storing their login information in MongoDB database and even hashing the password they create so even I don't have access to it. 
+
+The challenge I faced with this application was learning MongoDB and user registration. What I thought would be very simple, was a lot more complex than I thought. I had to learn how to store user information in MongoDB database and search for the registered users. It was a process where I learnt a lot. 
+
+More about the app: For the login purpose, I'm using the Passport.js library to make the process of going through the database to search for the user more intuitive and simpler. 
+In addition, when the user creates a watchlist, I'm assosiating the user's userID with the watchlist so they have access to it. One feature that sets my movie app apart from all the other applications like IMDB and Letterboxd is I'm implenting a feature of shared watchlists where a user can share their watchlist with other users and so multiple users' userIDs would be assosiated with the watchlist. It's for this specefic feature that motivated me to make this app: something I'm proud of.
